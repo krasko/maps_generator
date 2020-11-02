@@ -3,7 +3,9 @@ A simple program for generating sensed and unsensed maps for small numbers of ed
 
 Generates all rooted/sensed/unsensed maps with a specified list of vertex degrees. For each map, the program prints three permutations ("angles", "edge sides", "edge ends") that define the map. Also, map's genus and orientability are computed.
 
-The output can be easily `grep`ped to enumerate maps on specific surfaces. 
+The output can be easily `grep`ped to enumerate maps on specific surfaces.
+
+You will need the [Go](https://golang.org/) programming language distribution in order to run the program.
 
 ### Running the program
 
